@@ -66,8 +66,8 @@ Running the Project
 
 Clone the repository:
 
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/VHI-Analysis
+cd VHI-Analysis
 
 Run the data download script:
 

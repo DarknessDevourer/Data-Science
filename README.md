@@ -55,15 +55,15 @@ Required Libraries: pandas, numpy, os, shutil, datetime, urllib
 
 Install missing dependencies using:
 
-pip install pandas numpy
+    pip install pandas numpy
 
 Running the Project
 
 Clone the repository:
 
-git clone https://github.com/VHI-Analysis
-
-cd VHI-Analysis
+    git clone https://github.com/VHI-Analysis
+    
+    cd VHI-Analysis
 
 Run the data download script:
 

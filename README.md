@@ -26,23 +26,23 @@ Replaces numeric region indices from NOAA with their corresponding region names 
 
   4.1 Retrieve VHI Series for a Specific Region and Year
 
-    Filters the dataset to return the VHI values for a given region and year.
+  Filters the dataset to return the VHI values for a given region and year.
 
   4.2 Find Extremes (Min, Max), Mean, and Median for a Given Region and Year
 
-    Calculates statistical values (min, max, mean, and median) for a given region and year.
+  Calculates statistical values (min, max, mean, and median) for a given region and year.
 
-    Displays the results in a well-formatted output.
+  Displays the results in a well-formatted output.
 
   4.3 Retrieve VHI Data for a Given Range of Years and Regions
 
-    Extracts and returns VHI data for a specified set of regions over a given time range.
+  Extracts and returns VHI data for a specified set of regions over a given time range.
 
   4.4 Detect Extreme Drought Events
 
-    Identifies years where extreme drought (VHI < 15) affected more than 20% of administrative regions.
+  Identifies years where extreme drought (VHI < 15) affected more than 20% of administrative regions.
 
-    Returns a list of affected years along with the impacted regions and their VHI values.
+  Returns a list of affected years along with the impacted regions and their VHI values.
 
 
 Installation & Setup
@@ -76,13 +76,13 @@ Usage
 Modify the function parameters to retrieve and analyze data for specific regions and years.
 Example:
 
-wanted_reg = "Kyiv"
-
-wanted_year = "2020"
-
-vhi_series = get_vhi_series(df, wanted_reg, wanted_year)
-
-print(vhi_series)
+    wanted_reg = "Kyiv"
+    
+    wanted_year = "2020"
+    
+    vhi_series = get_vhi_series(df, wanted_reg, wanted_year)
+    
+    print(vhi_series)
 
 Contribution
 

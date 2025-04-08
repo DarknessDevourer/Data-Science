@@ -30,7 +30,7 @@
 - [Вимоги та установка](#вимоги-та-установка)
 - [Запуск коду](#запуск-коду)
 - [Результати та час виконання](#результати-та-час-виконання)
-- [Ліцензія](#ліцензія)
+
 
 ## Опис
 
@@ -58,8 +58,6 @@
 
 ├── README.md # Цей файл ├── household_power_consumption.txt # Датасет для завдань рівня 1 ├── automobile/ │ └── imports-85.data # Датасет для завдань рівня 2 ├── lab4_level1_pandas.py # Реалізації рівня 1 (Pandas) ├── lab4_level1_numpy.py # Реалізації рівня 1 (NumPy) ├── lab4_level2_pandas.py # Реалізації рівня 2 (Pandas) ├── lab4_level2_numpy.py # Реалізації рівня 2 (NumPy) └── requirements.txt # Список залежностей
 
-markdown
-Copy
 
 > **Примітка:** Файли з розширенням `.py` містять коментарі, опис кроків та вимірювання часу виконання для кожного завдання.
 
@@ -79,20 +77,17 @@ Copy
 venv\Scripts\activate.bat
 Windows (PowerShell):
 
-powershell
-Copy
+
 .\venv\Scripts\Activate.ps1
 macOS/Linux:
 
-bash
-Copy
+
 source venv/bin/activate
 Встановлення залежностей:
 
 Всі необхідні пакети наведені у файлі requirements.txt. Щоб їх встановити, скористайтесь командою:
 
-bash
-Copy
+
 pip install -r requirements.txt
 Запуск коду
 Рівень 1 (Споживання електроенергії):
